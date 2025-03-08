@@ -236,7 +236,7 @@ body {
 .hero__heading {
   font-family: var(--headingFont);
   color: var(--baseWhite);
-  font-size: 8rem;
+  font-size: 7.5rem;
   letter-spacing: 0.4rem;
   text-shadow: 0 0 0.2rem var(--accentGray);
   line-height: 0.9;
@@ -268,11 +268,16 @@ body {
   text-shadow: 0.1rem 0 var(--electricBlue);
   animation: noise-after 2.5s infinite alternate-reverse;
 }
+@media (min-width: 992px) {
+  .hero__heading {
+    font-size: 10rem;
+  }
+}
 
 @media (min-width: 768px) {
   .hero__heading {
     text-shadow: 0 0 0.2rem var(--accentSilver);
-    font-size: 10rem;
+    font-size: 9rem;
   }
 }
 

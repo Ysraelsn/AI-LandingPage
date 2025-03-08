@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const Hero = () => {
   const { t } = useTranslation();
   return (
-    <section className="hero">
+    <section className="hero container">
       <div className="hero_content">
         <div className="hero__title">
           <h1 className="hero__heading" data-text={t("HeroHeading")}>
